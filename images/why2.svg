@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58.6" height="35.128" viewBox="0 0 58.6 35.128">
+  <g id="ticket" transform="translate(0 0)">
+    <path id="Path_41" data-name="Path 41" d="M136.077,174.836l-3.067-6.76-1.8-.562,1.8,7.5s-2.415.25-3.665.447h0l-1.734-1.856-1.156-.168,1.06,2.388h0c-.632.169-1.025.351-1.025.542s.394.374,1.025.542l-1.06,2.388,1.156-.168,1.734-1.856h0c1.25.2,3.665.447,3.665.447l-1.8,7.5,1.8-.562,3.067-6.76c1.907,0,3.452-.684,3.452-1.527S137.984,174.836,136.077,174.836Z" transform="translate(-111.018 -158.799)" fill="#0098b7"/>
+    <path id="Path_42" data-name="Path 42" d="M0,96.13v35.128H58.6V96.13Zm56.158,32.687H44.278v-4.607H41.836v4.607H2.442V98.572H41.836v3.663h2.442V98.572H56.158Z" transform="translate(0 -96.13)" fill="#0098b7"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="2.442" height="4.883" transform="translate(41.836 21.365)" fill="#0098b7"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="2.442" height="4.883" transform="translate(41.836 7.935)" fill="#0098b7"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="2.442" height="4.883" transform="translate(41.836 14.65)" fill="#0098b7"/>
+  </g>
+</svg>
