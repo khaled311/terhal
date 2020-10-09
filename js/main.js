@@ -81,9 +81,9 @@ $(function () {
       el: ".services .swiper-pagination",
       clickable: true,
     },
-    // autoplay: {
-    //   delay: 5000,
-    // },
+    autoplay: {
+      delay: 5000,
+    },
     speed: 700,
     loop: true,
   });
@@ -94,21 +94,20 @@ $(function () {
       delay: 5000,
     },
     loop: true,
-    slidesPerView: 1,
+    slidesPerView: 4,
     pagination: {
       el: ".co-workers .swiper-pagination",
       clickable: true,
     },
-    // breakpoints: {
-    //   0: {
-    //     slidesPerView: 2,
-    //     spaceBetween: 20,
-    //   },
-    //   992: {
-    //     spaceBetween: 57,
-    //     slidesPerView: 5,
-    //   },
-    // },
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 4,
+      },
+    },
   });
 
   var a = 0;
