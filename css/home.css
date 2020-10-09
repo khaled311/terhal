@@ -70,7 +70,7 @@ ul.res {
   list-style: none;
 }
 
-.Flex, .loader, .sideNav, .search-pop .close, .topNav .right .searchTriger, .topNav .right .lang-switcher, header .swiper-container .swiper-slide .col-lg-6 .links a, .stats .boxs .box .pic, .stats .container > a, .who .col-sm-6 a:not([data-fancybox]), .why .boxs .box .pic, .big-boxs .box .content > a, .co-workers .brands a, footer .col-four .sub a {
+.Flex, .loader, .sideNav, .search-pop .close, .topNav .right .searchTriger, .topNav .right .lang-switcher, header .swiper-container .swiper-slide .col-lg-6 .links a, .stats .boxs .box .pic, .stats .container > a, .who .col-sm-6 a:not([data-fancybox]), .why .boxs .box .pic, .big-boxs .box .content > a, .features .features-content .about-feat a, .co-workers .brands a, footer .col-four .sub a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1129,8 +1129,8 @@ html[dir="rtl"] header .swiper-container .swiper-button-next {
 }
 
 html[dir="rtl"] header .swiper-container .swiper-button-next:hover img {
-  -webkit-transform: scaleX(-1) translateX(-5px);
-          transform: scaleX(-1) translateX(-5px);
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
 }
 
 header .swiper-container .swiper-button-prev {
@@ -1319,10 +1319,6 @@ html[dir="rtl"] header .swiper-container .swiper-button-prev:hover img {
   font-weight: 800;
   color: #051a36;
   margin-bottom: 85px;
-}
-
-html[dir="rtl"] .who .col-sm-6 h2 {
-  font-family: bold-ar;
 }
 
 @media (max-width: 1550px) {
@@ -1768,8 +1764,8 @@ html[dir="rtl"] .big-boxs .box .content {
   font-weight: 400;
 }
 
-.features .features-content .about-feat .button-container-3 {
-  position: relative;
+.features .features-content .about-feat a {
+  background-color: #FFF;
   width: 148px;
   height: 65px;
   margin-left: auto;
@@ -1779,51 +1775,19 @@ html[dir="rtl"] .big-boxs .box .content {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 6px;
-  border: 1px solid #fff;
+  font-size: 12px;
+  color: #0098b7;
 }
 
 @media (max-width: 1550px) {
-  .features .features-content .about-feat .button-container-3 {
+  .features .features-content .about-feat a {
     width: 93px;
     height: 40px;
   }
 }
 
-.features .features-content .about-feat .button-container-3 button {
-  width: 101%;
-  height: 100%;
-  font-size: 12px;
-  font-weight: bold;
-  background: #fff;
-  -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
-  mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
-  -webkit-mask-size: 3000% 100%;
-  mask-size: 3000% 100%;
-  border: none;
-  color: #0098b7;
-  cursor: pointer;
-  -webkit-animation: ani2 0.7s steps(29) forwards;
-  animation: ani2 0.7s steps(29) forwards;
-}
-
-.features .features-content .about-feat .button-container-3 button:hover {
-  -webkit-animation: ani 0.7s steps(29) forwards;
-  animation: ani 0.7s steps(29) forwards;
-}
-
-.features .features-content .about-feat .mas {
-  position: absolute;
-  color: #fff;
-  text-align: center;
-  width: 101%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-size: 11px;
-  overflow: hidden;
-  font-weight: bold;
+.features .features-content .about-feat a:hover {
+  opacity: .7;
 }
 
 .features .features-content .feat {
