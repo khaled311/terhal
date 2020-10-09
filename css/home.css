@@ -164,13 +164,13 @@ ul.res {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: #0098b7;
   z-index: 999999;
 }
 
-.loader img {
-  -webkit-animation: pulse 2s linear infinite;
-          animation: pulse 2s linear infinite;
+.loader svg {
+  width: 100%;
+  height: 100%;
 }
 
 .navover {
