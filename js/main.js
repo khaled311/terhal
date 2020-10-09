@@ -111,6 +111,31 @@ $(function () {
     // },
   });
 
+  var a = 0;
+    $(window).on("scroll", function () {
+        if (
+            a === 0 &&
+            $(this).scrollTop() >=
+                $(".stats").offset().top - $(".stats").innerHeight()
+        ) {
+            try {
+                // console.log(this);
+                $(".timer").countTo({
+                    speed: 2000,
+                });
+            } catch (err) {
+                // console.log(err);
+            }
+            a = 1;
+        }
+    });
+
+  // TABS
+  $("#TABS .feat .box").on("click", function() {
+    let target = $(this).data("target");
+    $("#TABS").find(".about-feat" + target).addClass("ks").siblings(".about-feat").removeClass("ks").addClass("fade");
+  })
+
   jQuery("img.svg").each(function () {
     var $img = jQuery(this);
     var imgID = $img.attr("id");
